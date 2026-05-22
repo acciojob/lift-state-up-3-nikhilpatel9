@@ -11,7 +11,8 @@ const App = () => {
      setSelectedOption(option)
    }
   return (
-    <div class="parent">
+    <div className="parent">
+       <h1>Parent Component</h1>
         <ChildComponent1 selectedOption={selectedOption} submitOption={submitOption}/>
         <ChildComponent2 selectedOption={selectedOption} submitOption={submitOption}/>
         <h2>Selected Option: {selectedOption}</h2>
